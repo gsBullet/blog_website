@@ -1,0 +1,82 @@
+header{
+    background-color: #355C7D;
+    color: white;
+    padding: 10px;
+}
+header p{
+    display: inline-block;
+    padding-left: 50px;
+}
+header a{
+    color: aliceblue;
+}
+header button{
+    float: right;
+    line-height: 20px;
+    background-color: #355C7D;
+    border: none;
+    padding-right: 70px;
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.navbar{
+    /* border: 1px solid green; */
+    padding-left: 50px;
+    
+}
+.navbar img{
+    width: 70px;
+    height: 70px;
+    padding-top: 20px;
+    /* border: 2px solid blue; */
+}
+.navbar span{
+    font-size: 50px;
+    color: #355C7D;
+    font-weight: bolder;
+    /* border: 1px solid red; */
+    vertical-align: 20px;
+}
+.navbar ul{
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #355C7D;
+    list-style-type: none;
+    float: right;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.navbar li{
+    display: inline-block;
+    /* border: 2px solid green; */
+    padding: 10px 15px;
+    
+}
+ul .news{
+    background-color: #D95B43;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    color: aliceblue;
+}
+.navbar2{
+    background-color: rgb(246, 241, 234);
+    padding: 20px 50px;
+    color: #355C7D;
+    
+
+}
+.navbar2 h2{
+    text-transform: uppercase;
+    display: inline-block;
+}
+.navbar2 p{
+    float: right;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+.navbar2 p span{
+    font-weight: 600;
+}
