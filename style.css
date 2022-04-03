@@ -1,3 +1,4 @@
+
 header{
     background-color: #355C7D;
     color: white;
@@ -55,12 +56,19 @@ header button{
     padding: 10px 15px;
     
 }
-ul .news{
-    background-color: #D95B43;
-    /* border: 1px solid red; */
-    border-radius: 10px;
+.navbar li a{
+    text-decoration: none;
+    color: #355C7D;
+}
+.navbar li a:hover{
     color: aliceblue;
 }
+.navbar li:hover{
+    background-color: #D95B43;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
 .navbar2{
     background-color: rgb(246, 241, 234);
     padding: 20px 50px;
@@ -79,4 +87,165 @@ ul .news{
 }
 .navbar2 p span{
     font-weight: 600;
+}
+.mainoption{
+    padding: 50px;
+}
+.sideinfo{
+    display: inline-block;
+    width: 80px;
+    height: 120px;
+    float: left;
+}
+.sideinfo{
+    padding-right: 50px;
+}
+.sideinfo span{
+    /* border: 1px solid greenyellow; */
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    height: 38%;
+    border-radius: 10px;
+   
+}
+.sideinfo .date{
+    background-color: #355C7D;
+}
+.sideinfo .message{
+    background-color: #D95B43;
+    color: aliceblue;
+}
+.heartpoint{
+    overflow: hidden;
+    color: #355C7D;
+    border: 1px solid rgba(128, 128, 128, 0.154);  
+}
+.heartpoint img{
+    width: 100%;
+    
+}
+.heartpoint h4{
+    padding: 20px;
+    font-size: 20px;
+   
+}
+.heartpoint p{
+    padding-left: 20px;
+}
+
+.mainbottom ul{
+    border: 1px solid rgba(128, 128, 128, 0.154);
+    padding-inline-start: 0px;
+    margin: 0 auto;
+}
+.mainbottom li{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.154);
+    color: #355b7d92;
+}
+.sidepagebar{
+   /* border: 1px solid red; */
+   padding: 50px 50px 100px 0px;
+}
+.sidepagebar span{
+    float: right;
+    font-style: italic;
+    color: #355b7d93;
+    
+}
+.sidepagebar button{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.sidepagebar .button1{
+    background-color: #D95B43; 
+}
+.sidepagebar .button2{
+    background-color: #355C7D; 
+}
+
+.secondnavbar{
+    padding-left: 50px;
+    border-top: 1px solid rgba(128, 128, 128, 0.405);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.307);
+}
+
+.secondnavbar li{
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 10px;
+   
+}
+.secondnavbar li a{
+    text-decoration: none;
+    color: #355C7D;
+    border-right: 1px solid #355C7D;
+    padding-right: 10px;
+    
+}
+.ourinfo{
+    padding-left: 50px;
+    color: #355C7D;
+    background-color: rgba(128, 128, 128, 0.117);
+}
+.about{
+    width: 550px;
+    display: inline-block;
+}
+.about img{
+    display: inline-block;
+}
+.about p{
+    display: inline-block;
+   
+    width: 430px;
+    vertical-align: 40px;
+    color: #355b7d77;
+}
+.contactus{
+    width: 250px;
+    display: inline-block;
+    vertical-align: 40px;
+    padding: 30px;
+}
+.contactus span{
+    color: #355b7d72;
+    text-transform: capitalize;
+}
+.followus{
+    width: 250px;
+    display: inline-block;
+    padding: 30px;
+    vertical-align: 50px;
+}
+.followus i{
+    border: 1px solid aliceblue;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+footer{
+    background-color: #355C7D;
+    color: rgba(240, 248, 255, 0.961);
+    padding-left: 50px;
+    font-weight: 500;
+
+}
+footer a{
+    color: rgba(240, 248, 255, 0.961);
+   
+}
+footer ul{
+    display: inline-block;
+    right: 0;
+    padding-left: 800px;
+}
+footer li{
+    display: inline-block;
+    text-transform: capitalize;
+    padding-right: 15px;
+    border-right: 1px solid aliceblue;
 }
