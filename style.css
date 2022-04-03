@@ -112,6 +112,7 @@ header button{
 }
 .sideinfo .date{
     background-color: #355C7D;
+    color: aliceblue;
 }
 .sideinfo .message{
     background-color: #D95B43;
